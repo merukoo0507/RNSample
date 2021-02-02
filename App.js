@@ -43,6 +43,8 @@ import ViewSample from './ts/viewComponents/ViewSample';
 import LayoutSample from './ts/viewComponents/LayoutSample';
 import ModalSample from './ts/viewComponents/ModalSample';
 import DialogSample from './ts/viewComponents/DialogSample';
+import Sign from './ts/viewComponents/SignTest';
+import CanvasTest from './ts/viewComponents/CavasTest';
 
 const App = () => {
   return (
@@ -65,9 +67,10 @@ const App = () => {
     // <CustomHook />
     // <ViewSample />
     // <LayoutSample />
-    <ModalSample />
+    // <ModalSample />
     // <DialogSample />
-
+    // <Sign />
+    <CanvasTest />
   );
 };
 

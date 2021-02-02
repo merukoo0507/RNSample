@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Button } from 'react-native'
 import {TextInput, Text, View, Image, StyleSheet} from 'react-native'
-
 export default function ViewSample() {
     return (
         <>
